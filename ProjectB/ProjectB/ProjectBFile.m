@@ -7,6 +7,13 @@
 //
 
 #import "ProjectBFile.h"
+#import <INTUGroupedArray/INTUGroupedArrayImports.h>
+
+@interface ProjectBFile ()
+
+@property (nonatomic, strong) INTUMutableGroupedArray *mutableGroupedArray;
+
+@end
 
 @implementation ProjectBFile
 

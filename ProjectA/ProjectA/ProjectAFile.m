@@ -7,6 +7,13 @@
 //
 
 #import "ProjectAFile.h"
+#import <INTUGroupedArray/INTUGroupedArrayImports.h>
+
+@interface ProjectAFile ()
+
+@property (nonatomic, strong) INTUGroupedArray *groupedArray;
+
+@end
 
 @implementation ProjectAFile
 
