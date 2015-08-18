@@ -1,0 +1,10 @@
+PODS:
+  - INTUGroupedArray (1.1.2)
+
+DEPENDENCIES:
+  - INTUGroupedArray (~> 1.0)
+
+SPEC CHECKSUMS:
+  INTUGroupedArray: b2f148c77a28b5bb00dc970681abaa73063788b3
+
+COCOAPODS: 0.37.2

@@ -1,0 +1,1472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11097859C542BC9153C976E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA263960CA8EFFF82D1C547D /* Cocoa.framework */; };
+		11A70776B937ABE74B04D6D7 /* INTUGroupedArraySectionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EA1B13DC3CF2688E2A0D2D /* INTUGroupedArraySectionContainer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13F0D1CD5D83FAC377300301 /* INTUGroupedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 28671ABB2D5F9EB11C1C1109 /* INTUGroupedArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		192EFD215C756894FB13F171 /* INTUMutableGroupedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7E9E79165EBFA8F6B4486D /* INTUMutableGroupedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D43532D29B3F40F82EEBD93 /* Pods-ProjectA-Mac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A04C9C3EA5BA5A2DF70A4FDE /* Pods-ProjectA-Mac-dummy.m */; };
+		1DDE3B9F5E2C27B0CFEC1BFB /* INTUGroupedArrayImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 34472866D0EB8FC65866D12D /* INTUGroupedArrayImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		207136EA574526E39ADD75A8 /* INTUGroupedArraySectionContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF100DE06CB4C39C762CEB2 /* INTUGroupedArraySectionContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		222F221864EEEBC1E720B964 /* Pods-ProjectB-Mac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B97285E6C9005F3C273544 /* Pods-ProjectB-Mac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27400EA1AE649DEAEFD4F388 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA263960CA8EFFF82D1C547D /* Cocoa.framework */; };
+		279B7B070F453B4514079FE5 /* INTUIndexPair.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF351F4F22A4291E85B95A1 /* INTUIndexPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A854FD90A8BA32F75B5AB0B /* INTUGroupedArraySectionContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF100DE06CB4C39C762CEB2 /* INTUGroupedArraySectionContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		312FE042AB9FAAB8E1480496 /* INTUMutableGroupedArrayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CDB775B8A065E24BF10327 /* INTUMutableGroupedArrayInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		364D4F3248B966E20E60B6D1 /* Pods-ProjectA-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3103C09191489A27445D353 /* Pods-ProjectA-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A9D444B99A39732327EC741 /* INTUGroupedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8C1F40CD5E8388F5DFCB7C /* INTUGroupedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BD4257165A4782FF2F299BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277B7A1B5DA3B84A68F2064B /* Foundation.framework */; };
+		3F2EED7FCDE3400DB23E3B79 /* INTUIndexPair.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF351F4F22A4291E85B95A1 /* INTUIndexPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44181E959D376064EC297B64 /* Pods-ProjectA-Mac-INTUGroupedArray-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F26123699DCE6F47B6FABA /* Pods-ProjectA-Mac-INTUGroupedArray-dummy.m */; };
+		4969BE68BDFE802BD17AD058 /* Pods-ProjectA-iOS-INTUGroupedArray-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C939BEC5D34FED5E62C9641 /* Pods-ProjectA-iOS-INTUGroupedArray-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		499C55B846F7D9D7FC89A9A0 /* INTUGroupedArraySectionContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF100DE06CB4C39C762CEB2 /* INTUGroupedArraySectionContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FEE8C4741D77AA4FCF056C0 /* INTUMutableGroupedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7E9E79165EBFA8F6B4486D /* INTUMutableGroupedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		509DF8CD402A774C4CF11B98 /* INTUGroupedArraySectionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EA1B13DC3CF2688E2A0D2D /* INTUGroupedArraySectionContainer.m */; };
+		511FACF26E75A24E1EB86839 /* INTUGroupedArrayDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0D3377795AF2635679A7C1 /* INTUGroupedArrayDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F8C5D549EF4E828FC7B2DE6 /* INTUGroupedArraySectionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EA1B13DC3CF2688E2A0D2D /* INTUGroupedArraySectionContainer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		67B05B6CC95D39CDBC7A192A /* INTUMutableGroupedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CD672F0F8F8F26F3818F9 /* INTUMutableGroupedArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		68A2003AC9FAB24B27BECF59 /* INTUGroupedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8C1F40CD5E8388F5DFCB7C /* INTUGroupedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68ED5864C3F600DFB4895536 /* INTUMutableGroupedArrayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CDB775B8A065E24BF10327 /* INTUMutableGroupedArrayInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D99493FB3C88DC65A33A160 /* Pods-ProjectB-Mac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4FAB1DD781263C883C430F /* Pods-ProjectB-Mac-dummy.m */; };
+		74C2DFE754206114C50D8075 /* INTUGroupedArrayDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0D3377795AF2635679A7C1 /* INTUGroupedArrayDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783BAF7527F6007C845B0BAF /* INTUGroupedArraySectionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EA1B13DC3CF2688E2A0D2D /* INTUGroupedArraySectionContainer.m */; };
+		7C9D31465D1B348E7B6E793A /* INTUMutableGroupedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CD672F0F8F8F26F3818F9 /* INTUMutableGroupedArray.m */; };
+		7D40116CC348BAA4693F7F76 /* INTUMutableGroupedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CD672F0F8F8F26F3818F9 /* INTUMutableGroupedArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7D674BA3BFC6CA74F9156E65 /* INTUGroupedArrayDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0D3377795AF2635679A7C1 /* INTUGroupedArrayDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		869F265F0500FFEDDDA6DDF0 /* INTUGroupedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8C1F40CD5E8388F5DFCB7C /* INTUGroupedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		871EFB4B9177FE82A28BAE77 /* INTUGroupedArrayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5C3A4E80EE7101FF056598 /* INTUGroupedArrayInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E790AE67EAFC15ABFD29F49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277B7A1B5DA3B84A68F2064B /* Foundation.framework */; };
+		8FD8870703E02605D6D1D35C /* INTUGroupedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 28671ABB2D5F9EB11C1C1109 /* INTUGroupedArray.m */; };
+		96C626814262EA98D0D7E4EA /* Pods-ProjectB-Mac-INTUGroupedArray-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9924E19AA5CA212A05F697 /* Pods-ProjectB-Mac-INTUGroupedArray-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8BA2A396E797F5614832292 /* Pods-ProjectA-iOS-INTUGroupedArray-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27550EBB41BAF2EC36364AD4 /* Pods-ProjectA-iOS-INTUGroupedArray-dummy.m */; };
+		A94C15FAE0914A0E3286EA48 /* INTUGroupedArrayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5C3A4E80EE7101FF056598 /* INTUGroupedArrayInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA744D198A95F72258FD0843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277B7A1B5DA3B84A68F2064B /* Foundation.framework */; };
+		AAEF825E98EFAC36204A09AE /* Pods-ProjectA-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCFB2544958AAE332337231 /* Pods-ProjectA-iOS-dummy.m */; };
+		B3DB5FA134EE7F36F7E08683 /* INTUGroupedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 28671ABB2D5F9EB11C1C1109 /* INTUGroupedArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C333C0DCA2D6227CC2C6ED31 /* Pods-ProjectB-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB9E02E9E25317B44AEF42 /* Pods-ProjectB-iOS-dummy.m */; };
+		C845377C0CD8F67F15B6750C /* INTUGroupedArrayImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 34472866D0EB8FC65866D12D /* INTUGroupedArrayImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C994E8DABFB319140D6EF2AB /* Pods-ProjectA-Mac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1685A7EA521FD1979BDD4707 /* Pods-ProjectA-Mac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC70417169D3454C1209510C /* INTUMutableGroupedArrayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CDB775B8A065E24BF10327 /* INTUMutableGroupedArrayInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46C3B5463ADF6D7E4BF10C7 /* INTUIndexPair.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF351F4F22A4291E85B95A1 /* INTUIndexPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4CD83AF379DD4F98B041D6D /* INTUGroupedArrayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5C3A4E80EE7101FF056598 /* INTUGroupedArrayInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7FFA5627893AE4DD174F102 /* Pods-ProjectB-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8BDCD1C6BCF4228B6F7D14 /* Pods-ProjectB-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9DF2A59BEBB9C1F4AEBECFD /* INTUGroupedArrayImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 34472866D0EB8FC65866D12D /* INTUGroupedArrayImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0A43238A74E710ED26B0EF /* INTUMutableGroupedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CD672F0F8F8F26F3818F9 /* INTUMutableGroupedArray.m */; };
+		DADBE8FFBF66713B771778A8 /* INTUMutableGroupedArrayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CDB775B8A065E24BF10327 /* INTUMutableGroupedArrayInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1DDAF93C3C583D6A714FA7 /* INTUGroupedArrayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5C3A4E80EE7101FF056598 /* INTUGroupedArrayInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDBDB0349C862BB996F959A8 /* Pods-ProjectB-iOS-INTUGroupedArray-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21415FF11FDF4199BDE2970F /* Pods-ProjectB-iOS-INTUGroupedArray-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5D6BC2445043D543540B7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA263960CA8EFFF82D1C547D /* Cocoa.framework */; };
+		E3C55AF7002EFF08E90503E6 /* INTUMutableGroupedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7E9E79165EBFA8F6B4486D /* INTUMutableGroupedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7EB77DAA1D4EAA7B512DAAF /* Pods-ProjectB-iOS-INTUGroupedArray-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8B05DBAC767D3080A4F414 /* Pods-ProjectB-iOS-INTUGroupedArray-dummy.m */; };
+		E9BC390E5D10611D33845B9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA263960CA8EFFF82D1C547D /* Cocoa.framework */; };
+		E9C66A0645933F157D69AC46 /* INTUGroupedArraySectionContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF100DE06CB4C39C762CEB2 /* INTUGroupedArraySectionContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDFAB4340D8DD8705019EEBE /* INTUIndexPair.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF351F4F22A4291E85B95A1 /* INTUIndexPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0BCBF0707906B9D625300B5 /* INTUGroupedArrayDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0D3377795AF2635679A7C1 /* INTUGroupedArrayDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1F06B54370856ACC5947604 /* INTUGroupedArrayImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 34472866D0EB8FC65866D12D /* INTUGroupedArrayImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5C04E7356BE3BFA4B8150AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277B7A1B5DA3B84A68F2064B /* Foundation.framework */; };
+		F779758513767324476B5391 /* Pods-ProjectB-Mac-INTUGroupedArray-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BD82518EB0A5207DC41DB7 /* Pods-ProjectB-Mac-INTUGroupedArray-dummy.m */; };
+		FB2D3CEC72A681EF0F457C49 /* Pods-ProjectA-Mac-INTUGroupedArray-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFBEA6FDC2410903890CEB2 /* Pods-ProjectA-Mac-INTUGroupedArray-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE5795207B5E7C3534195D39 /* INTUGroupedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 28671ABB2D5F9EB11C1C1109 /* INTUGroupedArray.m */; };
+		FE9182E048D898ABE7D7AF33 /* INTUMutableGroupedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7E9E79165EBFA8F6B4486D /* INTUMutableGroupedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF68EAE5B64682367454A025 /* INTUGroupedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8C1F40CD5E8388F5DFCB7C /* INTUGroupedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90968E1EAB69337CF33FD370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297EBBB3E41A2C38508617C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19423DB04BD3BFBBE45BAC1F;
+			remoteInfo = "Pods-ProjectA-Mac-INTUGroupedArray";
+		};
+		C2C02F2EC5B5A7DB2BE4CB37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297EBBB3E41A2C38508617C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C894503E8342E1EA0AF7F0;
+			remoteInfo = "Pods-ProjectA-iOS-INTUGroupedArray";
+		};
+		C892F121FAFF3C66C7D6CBBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297EBBB3E41A2C38508617C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31722B1272198B56B44B30D;
+			remoteInfo = "Pods-ProjectB-iOS-INTUGroupedArray";
+		};
+		D8B0C6B0E96817BB9A6FB7D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297EBBB3E41A2C38508617C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6522147B43BA135595CEAE4B;
+			remoteInfo = "Pods-ProjectB-Mac-INTUGroupedArray";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FD979D3EEF9CB1A6DF4DF7 /* Pods-ProjectB-Mac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectB-Mac-resources.sh"; sourceTree = "<group>"; };
+		0554DD163ED997ADB3390010 /* Pods-ProjectB-iOS-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectB-iOS-environment.h"; sourceTree = "<group>"; };
+		05C78874B98FEB2C86D04C4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070CD672F0F8F8F26F3818F9 /* INTUMutableGroupedArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTUMutableGroupedArray.m; path = Source/INTUGroupedArray/INTUMutableGroupedArray.m; sourceTree = "<group>"; };
+		0924D65B1DAF7ECDD546CFD9 /* Pods-ProjectB-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectB-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		09BBC3E97108882A83B6898D /* Pods-ProjectB-Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectB-Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		0A23A09E42E0F5CFE8C9F78B /* Pods-ProjectA-Mac-INTUGroupedArray.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ProjectA-Mac-INTUGroupedArray.modulemap"; sourceTree = "<group>"; };
+		0D435688592F2C373DC435FA /* Pods-ProjectB-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectB-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0F53092D43A014769857F156 /* Pods-ProjectB-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProjectB-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		1685A7EA521FD1979BDD4707 /* Pods-ProjectA-Mac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectA-Mac-umbrella.h"; sourceTree = "<group>"; };
+		1A14AF96336A573D709F3CC1 /* Pods-ProjectA-Mac-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectA-Mac-environment.h"; sourceTree = "<group>"; };
+		1C580862459DE9DC3E06F4CC /* INTUGroupedArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INTUGroupedArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5C3A4E80EE7101FF056598 /* INTUGroupedArrayInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTUGroupedArrayInternal.h; path = Source/INTUGroupedArray/Internal/INTUGroupedArrayInternal.h; sourceTree = "<group>"; };
+		21415FF11FDF4199BDE2970F /* Pods-ProjectB-iOS-INTUGroupedArray-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ProjectB-iOS-INTUGroupedArray-umbrella.h"; path = "../Pods-ProjectB-iOS-INTUGroupedArray/Pods-ProjectB-iOS-INTUGroupedArray-umbrella.h"; sourceTree = "<group>"; };
+		27550EBB41BAF2EC36364AD4 /* Pods-ProjectA-iOS-INTUGroupedArray-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ProjectA-iOS-INTUGroupedArray-dummy.m"; path = "../Pods-ProjectA-iOS-INTUGroupedArray/Pods-ProjectA-iOS-INTUGroupedArray-dummy.m"; sourceTree = "<group>"; };
+		277B7A1B5DA3B84A68F2064B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		28671ABB2D5F9EB11C1C1109 /* INTUGroupedArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTUGroupedArray.m; path = Source/INTUGroupedArray/INTUGroupedArray.m; sourceTree = "<group>"; };
+		2EFBEA6FDC2410903890CEB2 /* Pods-ProjectA-Mac-INTUGroupedArray-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectA-Mac-INTUGroupedArray-umbrella.h"; sourceTree = "<group>"; };
+		34472866D0EB8FC65866D12D /* INTUGroupedArrayImports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTUGroupedArrayImports.h; path = Source/INTUGroupedArray/INTUGroupedArrayImports.h; sourceTree = "<group>"; };
+		34DB9E02E9E25317B44AEF42 /* Pods-ProjectB-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectB-iOS-dummy.m"; sourceTree = "<group>"; };
+		370AB840216D515E1487783B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ProjectB-Mac-INTUGroupedArray/Info.plist"; sourceTree = "<group>"; };
+		3C397BC27C9498BAB7721E11 /* Pods-ProjectA-iOS-INTUGroupedArray-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectA-iOS-INTUGroupedArray-Private.xcconfig"; path = "../Pods-ProjectA-iOS-INTUGroupedArray/Pods-ProjectA-iOS-INTUGroupedArray-Private.xcconfig"; sourceTree = "<group>"; };
+		3FD31B7A3A34CA098AD81AB7 /* Pods-ProjectA-Mac-INTUGroupedArray-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectA-Mac-INTUGroupedArray-prefix.pch"; sourceTree = "<group>"; };
+		4061915CB2542CC22DD22FC1 /* Pods-ProjectB-iOS-INTUGroupedArray-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectB-iOS-INTUGroupedArray-Private.xcconfig"; path = "../Pods-ProjectB-iOS-INTUGroupedArray/Pods-ProjectB-iOS-INTUGroupedArray-Private.xcconfig"; sourceTree = "<group>"; };
+		41EC0630AC0B06A930D08CB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4225BCD9EB904FD4588E81DC /* Pods-ProjectB-Mac-INTUGroupedArray-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ProjectB-Mac-INTUGroupedArray-prefix.pch"; path = "../Pods-ProjectB-Mac-INTUGroupedArray/Pods-ProjectB-Mac-INTUGroupedArray-prefix.pch"; sourceTree = "<group>"; };
+		4F5CAF6A0211DD9ACFBFD3F8 /* Pods-ProjectA-Mac-INTUGroupedArray-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectA-Mac-INTUGroupedArray-Private.xcconfig"; sourceTree = "<group>"; };
+		50CAA5944D0EC54792651EF5 /* Pods-ProjectA-iOS-INTUGroupedArray.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ProjectA-iOS-INTUGroupedArray.modulemap"; path = "../Pods-ProjectA-iOS-INTUGroupedArray/Pods-ProjectA-iOS-INTUGroupedArray.modulemap"; sourceTree = "<group>"; };
+		52EA1B13DC3CF2688E2A0D2D /* INTUGroupedArraySectionContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTUGroupedArraySectionContainer.m; path = Source/INTUGroupedArray/Internal/INTUGroupedArraySectionContainer.m; sourceTree = "<group>"; };
+		532CFBB44732C1C4FF96349B /* Pods-ProjectB-Mac-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectB-Mac-environment.h"; sourceTree = "<group>"; };
+		542B9D70A0B597F2188EE5A7 /* Pods-ProjectB-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ProjectB-iOS.modulemap"; sourceTree = "<group>"; };
+		546D36681FB10A998368027D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		562AA1A823556A30A607DF4C /* Pods_ProjectB_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectB_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9924E19AA5CA212A05F697 /* Pods-ProjectB-Mac-INTUGroupedArray-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ProjectB-Mac-INTUGroupedArray-umbrella.h"; path = "../Pods-ProjectB-Mac-INTUGroupedArray/Pods-ProjectB-Mac-INTUGroupedArray-umbrella.h"; sourceTree = "<group>"; };
+		5B8BDCD1C6BCF4228B6F7D14 /* Pods-ProjectB-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectB-iOS-umbrella.h"; sourceTree = "<group>"; };
+		5C939BEC5D34FED5E62C9641 /* Pods-ProjectA-iOS-INTUGroupedArray-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ProjectA-iOS-INTUGroupedArray-umbrella.h"; path = "../Pods-ProjectA-iOS-INTUGroupedArray/Pods-ProjectA-iOS-INTUGroupedArray-umbrella.h"; sourceTree = "<group>"; };
+		6732BC9D11DB76F3542FE50C /* Pods-ProjectA-Mac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectA-Mac-resources.sh"; sourceTree = "<group>"; };
+		686E6B5D41F0213B164F9DED /* Pods-ProjectA-iOS-INTUGroupedArray-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ProjectA-iOS-INTUGroupedArray-prefix.pch"; path = "../Pods-ProjectA-iOS-INTUGroupedArray/Pods-ProjectA-iOS-INTUGroupedArray-prefix.pch"; sourceTree = "<group>"; };
+		69228B8B1796CE3ED0A153B0 /* Pods-ProjectB-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectB-iOS-resources.sh"; sourceTree = "<group>"; };
+		6A51EF651A32F6B34CB4153F /* Pods-ProjectB-Mac-INTUGroupedArray.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectB-Mac-INTUGroupedArray.xcconfig"; path = "../Pods-ProjectB-Mac-INTUGroupedArray/Pods-ProjectB-Mac-INTUGroupedArray.xcconfig"; sourceTree = "<group>"; };
+		6D43A7F24B74AE654CEEC252 /* Pods-ProjectA-iOS-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectA-iOS-environment.h"; sourceTree = "<group>"; };
+		6E2F11D89D8F2CEF2EF3F925 /* Pods-ProjectB-Mac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjectB-Mac-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75EDE2104A88F34DD1F9B029 /* Pods-ProjectA-Mac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProjectA-Mac-acknowledgements.plist"; sourceTree = "<group>"; };
+		78F26123699DCE6F47B6FABA /* Pods-ProjectA-Mac-INTUGroupedArray-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectA-Mac-INTUGroupedArray-dummy.m"; sourceTree = "<group>"; };
+		7A0D3377795AF2635679A7C1 /* INTUGroupedArrayDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTUGroupedArrayDefines.h; path = Source/INTUGroupedArray/Internal/INTUGroupedArrayDefines.h; sourceTree = "<group>"; };
+		819B09332F81F78E9A2D0AE3 /* Pods_ProjectA_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectA_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6B310EF98F7FE56096110B /* Pods-ProjectA-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ProjectA-iOS.modulemap"; sourceTree = "<group>"; };
+		8CF08548E7F1722EA764E43E /* Pods-ProjectA-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProjectA-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DF100DE06CB4C39C762CEB2 /* INTUGroupedArraySectionContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTUGroupedArraySectionContainer.h; path = Source/INTUGroupedArray/Internal/INTUGroupedArraySectionContainer.h; sourceTree = "<group>"; };
+		8ED31EB594E6080515F2DF71 /* Pods-ProjectA-Mac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ProjectA-Mac.modulemap"; sourceTree = "<group>"; };
+		90C1E4A942A23E4ABA628A91 /* Pods-ProjectA-Mac-INTUGroupedArray.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectA-Mac-INTUGroupedArray.xcconfig"; sourceTree = "<group>"; };
+		94C7B0022C78D0878F12B6C6 /* Pods-ProjectA-Mac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectA-Mac-frameworks.sh"; sourceTree = "<group>"; };
+		94CDB775B8A065E24BF10327 /* INTUMutableGroupedArrayInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTUMutableGroupedArrayInternal.h; path = Source/INTUGroupedArray/Internal/INTUMutableGroupedArrayInternal.h; sourceTree = "<group>"; };
+		9617DE4BD49457348843874D /* INTUGroupedArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INTUGroupedArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A8CBF57AE9B204E2820559 /* Pods-ProjectB-iOS-INTUGroupedArray.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ProjectB-iOS-INTUGroupedArray.modulemap"; path = "../Pods-ProjectB-iOS-INTUGroupedArray/Pods-ProjectB-iOS-INTUGroupedArray.modulemap"; sourceTree = "<group>"; };
+		9C24A0A03DF3509B8836C0A6 /* Pods_ProjectB_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectB_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD179BA942EBC438508BF09 /* INTUGroupedArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INTUGroupedArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04C9C3EA5BA5A2DF70A4FDE /* Pods-ProjectA-Mac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectA-Mac-dummy.m"; sourceTree = "<group>"; };
+		A0A2FC0A04970CAD646BE499 /* Pods-ProjectB-Mac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ProjectB-Mac.modulemap"; sourceTree = "<group>"; };
+		A1619B3AD38D602494E60BD0 /* Pods-ProjectB-Mac-INTUGroupedArray-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectB-Mac-INTUGroupedArray-Private.xcconfig"; path = "../Pods-ProjectB-Mac-INTUGroupedArray/Pods-ProjectB-Mac-INTUGroupedArray-Private.xcconfig"; sourceTree = "<group>"; };
+		A260B75D4393A46699E600C1 /* Pods-ProjectA-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectA-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		A3103C09191489A27445D353 /* Pods-ProjectA-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectA-iOS-umbrella.h"; sourceTree = "<group>"; };
+		A854EF25EC637288C37B1BF6 /* Pods-ProjectB-Mac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProjectB-Mac-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1B263C4A89053A416591230 /* Pods-ProjectA-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjectA-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3F202DEAA9EBF2BD35A8218 /* Pods-ProjectB-iOS-INTUGroupedArray-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ProjectB-iOS-INTUGroupedArray-prefix.pch"; path = "../Pods-ProjectB-iOS-INTUGroupedArray/Pods-ProjectB-iOS-INTUGroupedArray-prefix.pch"; sourceTree = "<group>"; };
+		B4332906DC1FD30E23AC0F7B /* Pods_ProjectA_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectA_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A24E0B993385C46EB4D350 /* Pods-ProjectA-iOS-INTUGroupedArray.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectA-iOS-INTUGroupedArray.xcconfig"; path = "../Pods-ProjectA-iOS-INTUGroupedArray/Pods-ProjectA-iOS-INTUGroupedArray.xcconfig"; sourceTree = "<group>"; };
+		BB8CB29B54577130F017BFA1 /* Pods-ProjectB-Mac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectB-Mac-frameworks.sh"; sourceTree = "<group>"; };
+		BF8B05DBAC767D3080A4F414 /* Pods-ProjectB-iOS-INTUGroupedArray-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ProjectB-iOS-INTUGroupedArray-dummy.m"; path = "../Pods-ProjectB-iOS-INTUGroupedArray/Pods-ProjectB-iOS-INTUGroupedArray-dummy.m"; sourceTree = "<group>"; };
+		C420B0446DE28D57E52599C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ProjectB-iOS-INTUGroupedArray/Info.plist"; sourceTree = "<group>"; };
+		C5F36E8D611937B309F1BF2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7E9E79165EBFA8F6B4486D /* INTUMutableGroupedArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTUMutableGroupedArray.h; path = Source/INTUGroupedArray/INTUMutableGroupedArray.h; sourceTree = "<group>"; };
+		CAEE7F16319742658E566C3D /* Pods-ProjectA-Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectA-Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4FAB1DD781263C883C430F /* Pods-ProjectB-Mac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectB-Mac-dummy.m"; sourceTree = "<group>"; };
+		D197F9F8C9C79DFA1D8D5AFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B97285E6C9005F3C273544 /* Pods-ProjectB-Mac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectB-Mac-umbrella.h"; sourceTree = "<group>"; };
+		D6061921D2E2D2FD30C5B9CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FE93050E0F2EE0982388E8 /* Pods-ProjectA-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectA-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D7028A870C9F7706BE164ECC /* INTUGroupedArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INTUGroupedArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCFB2544958AAE332337231 /* Pods-ProjectA-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectA-iOS-dummy.m"; sourceTree = "<group>"; };
+		DD5B7028F6DB96F5561E085D /* Pods-ProjectA-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectA-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		DEF351F4F22A4291E85B95A1 /* INTUIndexPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTUIndexPair.h; path = Source/INTUGroupedArray/Internal/INTUIndexPair.h; sourceTree = "<group>"; };
+		E0F852B891C6504904434746 /* Pods-ProjectB-Mac-INTUGroupedArray.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ProjectB-Mac-INTUGroupedArray.modulemap"; path = "../Pods-ProjectB-Mac-INTUGroupedArray/Pods-ProjectB-Mac-INTUGroupedArray.modulemap"; sourceTree = "<group>"; };
+		E1BD82518EB0A5207DC41DB7 /* Pods-ProjectB-Mac-INTUGroupedArray-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ProjectB-Mac-INTUGroupedArray-dummy.m"; path = "../Pods-ProjectB-Mac-INTUGroupedArray/Pods-ProjectB-Mac-INTUGroupedArray-dummy.m"; sourceTree = "<group>"; };
+		E99EAA06AA51E3519AFB821A /* Pods-ProjectB-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectB-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		EB7535F593CE1247F4C02A5C /* Pods-ProjectA-Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectA-Mac.release.xcconfig"; sourceTree = "<group>"; };
+		F623A66AE1A4BADB0CA32D2F /* Pods-ProjectB-iOS-INTUGroupedArray.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectB-iOS-INTUGroupedArray.xcconfig"; path = "../Pods-ProjectB-iOS-INTUGroupedArray/Pods-ProjectB-iOS-INTUGroupedArray.xcconfig"; sourceTree = "<group>"; };
+		F986FAAE3686CCDDD60D97B2 /* Pods-ProjectA-Mac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjectA-Mac-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA263960CA8EFFF82D1C547D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FAAAAA0DD0759663005085EB /* Pods-ProjectB-Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectB-Mac.release.xcconfig"; sourceTree = "<group>"; };
+		FB8C1F40CD5E8388F5DFCB7C /* INTUGroupedArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTUGroupedArray.h; path = Source/INTUGroupedArray/INTUGroupedArray.h; sourceTree = "<group>"; };
+		FF2284F636024B12001EE9A7 /* Pods-ProjectA-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectA-iOS-resources.sh"; sourceTree = "<group>"; };
+		FF31916F92ABCBB50BBC36B6 /* Pods-ProjectB-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjectB-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFFAB7DD402F401D7E1D6EE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ProjectA-iOS-INTUGroupedArray/Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A6688AB4F243F4142967D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27400EA1AE649DEAEFD4F388 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A93B11E117FF0856BA05FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5D6BC2445043D543540B7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065A851AAC714CA35C48503A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E790AE67EAFC15ABFD29F49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F479A395DDCDAB150ACA22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA744D198A95F72258FD0843 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD6E32E42558AE54ECA5063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BC390E5D10611D33845B9F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5C8C5883A23BC90180D1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11097859C542BC9153C976E2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C2FDBF1CE72877936CC39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C04E7356BE3BFA4B8150AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C654C10EE20E6192C8205A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD4257165A4782FF2F299BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11083188471EFB0C291B2AA3 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				FA263960CA8EFFF82D1C547D /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		173A7DBB6D6DAD67A33946E4 /* Pods-ProjectA-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				05C78874B98FEB2C86D04C4E /* Info.plist */,
+				8B6B310EF98F7FE56096110B /* Pods-ProjectA-iOS.modulemap */,
+				B1B263C4A89053A416591230 /* Pods-ProjectA-iOS-acknowledgements.markdown */,
+				8CF08548E7F1722EA764E43E /* Pods-ProjectA-iOS-acknowledgements.plist */,
+				DCCFB2544958AAE332337231 /* Pods-ProjectA-iOS-dummy.m */,
+				6D43A7F24B74AE654CEEC252 /* Pods-ProjectA-iOS-environment.h */,
+				A260B75D4393A46699E600C1 /* Pods-ProjectA-iOS-frameworks.sh */,
+				FF2284F636024B12001EE9A7 /* Pods-ProjectA-iOS-resources.sh */,
+				A3103C09191489A27445D353 /* Pods-ProjectA-iOS-umbrella.h */,
+				D6FE93050E0F2EE0982388E8 /* Pods-ProjectA-iOS.debug.xcconfig */,
+				DD5B7028F6DB96F5561E085D /* Pods-ProjectA-iOS.release.xcconfig */,
+			);
+			name = "Pods-ProjectA-iOS";
+			path = "Target Support Files/Pods-ProjectA-iOS";
+			sourceTree = "<group>";
+		};
+		181D16CDAD2561F272D374C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				370AB840216D515E1487783B /* Info.plist */,
+				C420B0446DE28D57E52599C9 /* Info.plist */,
+				FFFAB7DD402F401D7E1D6EE0 /* Info.plist */,
+				41EC0630AC0B06A930D08CB9 /* Info.plist */,
+				0A23A09E42E0F5CFE8C9F78B /* Pods-ProjectA-Mac-INTUGroupedArray.modulemap */,
+				90C1E4A942A23E4ABA628A91 /* Pods-ProjectA-Mac-INTUGroupedArray.xcconfig */,
+				4F5CAF6A0211DD9ACFBFD3F8 /* Pods-ProjectA-Mac-INTUGroupedArray-Private.xcconfig */,
+				78F26123699DCE6F47B6FABA /* Pods-ProjectA-Mac-INTUGroupedArray-dummy.m */,
+				3FD31B7A3A34CA098AD81AB7 /* Pods-ProjectA-Mac-INTUGroupedArray-prefix.pch */,
+				2EFBEA6FDC2410903890CEB2 /* Pods-ProjectA-Mac-INTUGroupedArray-umbrella.h */,
+				50CAA5944D0EC54792651EF5 /* Pods-ProjectA-iOS-INTUGroupedArray.modulemap */,
+				B8A24E0B993385C46EB4D350 /* Pods-ProjectA-iOS-INTUGroupedArray.xcconfig */,
+				3C397BC27C9498BAB7721E11 /* Pods-ProjectA-iOS-INTUGroupedArray-Private.xcconfig */,
+				27550EBB41BAF2EC36364AD4 /* Pods-ProjectA-iOS-INTUGroupedArray-dummy.m */,
+				686E6B5D41F0213B164F9DED /* Pods-ProjectA-iOS-INTUGroupedArray-prefix.pch */,
+				5C939BEC5D34FED5E62C9641 /* Pods-ProjectA-iOS-INTUGroupedArray-umbrella.h */,
+				E0F852B891C6504904434746 /* Pods-ProjectB-Mac-INTUGroupedArray.modulemap */,
+				6A51EF651A32F6B34CB4153F /* Pods-ProjectB-Mac-INTUGroupedArray.xcconfig */,
+				A1619B3AD38D602494E60BD0 /* Pods-ProjectB-Mac-INTUGroupedArray-Private.xcconfig */,
+				E1BD82518EB0A5207DC41DB7 /* Pods-ProjectB-Mac-INTUGroupedArray-dummy.m */,
+				4225BCD9EB904FD4588E81DC /* Pods-ProjectB-Mac-INTUGroupedArray-prefix.pch */,
+				5A9924E19AA5CA212A05F697 /* Pods-ProjectB-Mac-INTUGroupedArray-umbrella.h */,
+				97A8CBF57AE9B204E2820559 /* Pods-ProjectB-iOS-INTUGroupedArray.modulemap */,
+				F623A66AE1A4BADB0CA32D2F /* Pods-ProjectB-iOS-INTUGroupedArray.xcconfig */,
+				4061915CB2542CC22DD22FC1 /* Pods-ProjectB-iOS-INTUGroupedArray-Private.xcconfig */,
+				BF8B05DBAC767D3080A4F414 /* Pods-ProjectB-iOS-INTUGroupedArray-dummy.m */,
+				B3F202DEAA9EBF2BD35A8218 /* Pods-ProjectB-iOS-INTUGroupedArray-prefix.pch */,
+				21415FF11FDF4199BDE2970F /* Pods-ProjectB-iOS-INTUGroupedArray-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ProjectA-Mac-INTUGroupedArray";
+			sourceTree = "<group>";
+		};
+		34D939BB7E3182954100BAD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11083188471EFB0C291B2AA3 /* OS X */,
+				882BA7A22B0B6E4F62AAEFA9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		575A1B6D910AB689C6039A69 /* INTUGroupedArray */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C1F40CD5E8388F5DFCB7C /* INTUGroupedArray.h */,
+				28671ABB2D5F9EB11C1C1109 /* INTUGroupedArray.m */,
+				7A0D3377795AF2635679A7C1 /* INTUGroupedArrayDefines.h */,
+				34472866D0EB8FC65866D12D /* INTUGroupedArrayImports.h */,
+				1D5C3A4E80EE7101FF056598 /* INTUGroupedArrayInternal.h */,
+				8DF100DE06CB4C39C762CEB2 /* INTUGroupedArraySectionContainer.h */,
+				52EA1B13DC3CF2688E2A0D2D /* INTUGroupedArraySectionContainer.m */,
+				DEF351F4F22A4291E85B95A1 /* INTUIndexPair.h */,
+				CA7E9E79165EBFA8F6B4486D /* INTUMutableGroupedArray.h */,
+				070CD672F0F8F8F26F3818F9 /* INTUMutableGroupedArray.m */,
+				94CDB775B8A065E24BF10327 /* INTUMutableGroupedArrayInternal.h */,
+				181D16CDAD2561F272D374C5 /* Support Files */,
+			);
+			path = INTUGroupedArray;
+			sourceTree = "<group>";
+		};
+		6E3208197381DE558D717709 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				575A1B6D910AB689C6039A69 /* INTUGroupedArray */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		786297A733B924F1CA9519E1 /* Pods-ProjectB-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5F36E8D611937B309F1BF2E /* Info.plist */,
+				542B9D70A0B597F2188EE5A7 /* Pods-ProjectB-iOS.modulemap */,
+				FF31916F92ABCBB50BBC36B6 /* Pods-ProjectB-iOS-acknowledgements.markdown */,
+				0F53092D43A014769857F156 /* Pods-ProjectB-iOS-acknowledgements.plist */,
+				34DB9E02E9E25317B44AEF42 /* Pods-ProjectB-iOS-dummy.m */,
+				0554DD163ED997ADB3390010 /* Pods-ProjectB-iOS-environment.h */,
+				E99EAA06AA51E3519AFB821A /* Pods-ProjectB-iOS-frameworks.sh */,
+				69228B8B1796CE3ED0A153B0 /* Pods-ProjectB-iOS-resources.sh */,
+				5B8BDCD1C6BCF4228B6F7D14 /* Pods-ProjectB-iOS-umbrella.h */,
+				0D435688592F2C373DC435FA /* Pods-ProjectB-iOS.debug.xcconfig */,
+				0924D65B1DAF7ECDD546CFD9 /* Pods-ProjectB-iOS.release.xcconfig */,
+			);
+			name = "Pods-ProjectB-iOS";
+			path = "Target Support Files/Pods-ProjectB-iOS";
+			sourceTree = "<group>";
+		};
+		882BA7A22B0B6E4F62AAEFA9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				277B7A1B5DA3B84A68F2064B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		945D6553D60DDC72B37F5722 = {
+			isa = PBXGroup;
+			children = (
+				546D36681FB10A998368027D /* Podfile */,
+				34D939BB7E3182954100BAD2 /* Frameworks */,
+				6E3208197381DE558D717709 /* Pods */,
+				D4CF620A9DCB8533B7A7B113 /* Products */,
+				BA52ABEB25A767097AE9C265 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94D760287CEBA7754A3357B9 /* Pods-ProjectB-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				D197F9F8C9C79DFA1D8D5AFF /* Info.plist */,
+				A0A2FC0A04970CAD646BE499 /* Pods-ProjectB-Mac.modulemap */,
+				6E2F11D89D8F2CEF2EF3F925 /* Pods-ProjectB-Mac-acknowledgements.markdown */,
+				A854EF25EC637288C37B1BF6 /* Pods-ProjectB-Mac-acknowledgements.plist */,
+				CB4FAB1DD781263C883C430F /* Pods-ProjectB-Mac-dummy.m */,
+				532CFBB44732C1C4FF96349B /* Pods-ProjectB-Mac-environment.h */,
+				BB8CB29B54577130F017BFA1 /* Pods-ProjectB-Mac-frameworks.sh */,
+				04FD979D3EEF9CB1A6DF4DF7 /* Pods-ProjectB-Mac-resources.sh */,
+				D5B97285E6C9005F3C273544 /* Pods-ProjectB-Mac-umbrella.h */,
+				09BBC3E97108882A83B6898D /* Pods-ProjectB-Mac.debug.xcconfig */,
+				FAAAAA0DD0759663005085EB /* Pods-ProjectB-Mac.release.xcconfig */,
+			);
+			name = "Pods-ProjectB-Mac";
+			path = "Target Support Files/Pods-ProjectB-Mac";
+			sourceTree = "<group>";
+		};
+		B8B4A31A2A23607529CC4B9A /* Pods-ProjectA-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				D6061921D2E2D2FD30C5B9CA /* Info.plist */,
+				8ED31EB594E6080515F2DF71 /* Pods-ProjectA-Mac.modulemap */,
+				F986FAAE3686CCDDD60D97B2 /* Pods-ProjectA-Mac-acknowledgements.markdown */,
+				75EDE2104A88F34DD1F9B029 /* Pods-ProjectA-Mac-acknowledgements.plist */,
+				A04C9C3EA5BA5A2DF70A4FDE /* Pods-ProjectA-Mac-dummy.m */,
+				1A14AF96336A573D709F3CC1 /* Pods-ProjectA-Mac-environment.h */,
+				94C7B0022C78D0878F12B6C6 /* Pods-ProjectA-Mac-frameworks.sh */,
+				6732BC9D11DB76F3542FE50C /* Pods-ProjectA-Mac-resources.sh */,
+				1685A7EA521FD1979BDD4707 /* Pods-ProjectA-Mac-umbrella.h */,
+				CAEE7F16319742658E566C3D /* Pods-ProjectA-Mac.debug.xcconfig */,
+				EB7535F593CE1247F4C02A5C /* Pods-ProjectA-Mac.release.xcconfig */,
+			);
+			name = "Pods-ProjectA-Mac";
+			path = "Target Support Files/Pods-ProjectA-Mac";
+			sourceTree = "<group>";
+		};
+		BA52ABEB25A767097AE9C265 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8B4A31A2A23607529CC4B9A /* Pods-ProjectA-Mac */,
+				173A7DBB6D6DAD67A33946E4 /* Pods-ProjectA-iOS */,
+				94D760287CEBA7754A3357B9 /* Pods-ProjectB-Mac */,
+				786297A733B924F1CA9519E1 /* Pods-ProjectB-iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D4CF620A9DCB8533B7A7B113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7028A870C9F7706BE164ECC /* INTUGroupedArray.framework */,
+				9617DE4BD49457348843874D /* INTUGroupedArray.framework */,
+				9DD179BA942EBC438508BF09 /* INTUGroupedArray.framework */,
+				1C580862459DE9DC3E06F4CC /* INTUGroupedArray.framework */,
+				819B09332F81F78E9A2D0AE3 /* Pods_ProjectA_Mac.framework */,
+				B4332906DC1FD30E23AC0F7B /* Pods_ProjectA_iOS.framework */,
+				9C24A0A03DF3509B8836C0A6 /* Pods_ProjectB_Mac.framework */,
+				562AA1A823556A30A607DF4C /* Pods_ProjectB_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03604DE48091181051AC30B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869F265F0500FFEDDDA6DDF0 /* INTUGroupedArray.h in Headers */,
+				511FACF26E75A24E1EB86839 /* INTUGroupedArrayDefines.h in Headers */,
+				C845377C0CD8F67F15B6750C /* INTUGroupedArrayImports.h in Headers */,
+				DB1DDAF93C3C583D6A714FA7 /* INTUGroupedArrayInternal.h in Headers */,
+				2A854FD90A8BA32F75B5AB0B /* INTUGroupedArraySectionContainer.h in Headers */,
+				279B7B070F453B4514079FE5 /* INTUIndexPair.h in Headers */,
+				FE9182E048D898ABE7D7AF33 /* INTUMutableGroupedArray.h in Headers */,
+				CC70417169D3454C1209510C /* INTUMutableGroupedArrayInternal.h in Headers */,
+				96C626814262EA98D0D7E4EA /* Pods-ProjectB-Mac-INTUGroupedArray-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A014ED7E7B8255D0756F178 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A2003AC9FAB24B27BECF59 /* INTUGroupedArray.h in Headers */,
+				F0BCBF0707906B9D625300B5 /* INTUGroupedArrayDefines.h in Headers */,
+				D9DF2A59BEBB9C1F4AEBECFD /* INTUGroupedArrayImports.h in Headers */,
+				871EFB4B9177FE82A28BAE77 /* INTUGroupedArrayInternal.h in Headers */,
+				207136EA574526E39ADD75A8 /* INTUGroupedArraySectionContainer.h in Headers */,
+				D46C3B5463ADF6D7E4BF10C7 /* INTUIndexPair.h in Headers */,
+				4FEE8C4741D77AA4FCF056C0 /* INTUMutableGroupedArray.h in Headers */,
+				312FE042AB9FAAB8E1480496 /* INTUMutableGroupedArrayInternal.h in Headers */,
+				DDBDB0349C862BB996F959A8 /* Pods-ProjectB-iOS-INTUGroupedArray-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318977E0183C7E4E460AB235 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222F221864EEEBC1E720B964 /* Pods-ProjectB-Mac-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F9EA3C513D6F098FDC8314 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C994E8DABFB319140D6EF2AB /* Pods-ProjectA-Mac-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA786E2DF40276DA8D8768A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9D444B99A39732327EC741 /* INTUGroupedArray.h in Headers */,
+				74C2DFE754206114C50D8075 /* INTUGroupedArrayDefines.h in Headers */,
+				1DDE3B9F5E2C27B0CFEC1BFB /* INTUGroupedArrayImports.h in Headers */,
+				A94C15FAE0914A0E3286EA48 /* INTUGroupedArrayInternal.h in Headers */,
+				499C55B846F7D9D7FC89A9A0 /* INTUGroupedArraySectionContainer.h in Headers */,
+				3F2EED7FCDE3400DB23E3B79 /* INTUIndexPair.h in Headers */,
+				192EFD215C756894FB13F171 /* INTUMutableGroupedArray.h in Headers */,
+				DADBE8FFBF66713B771778A8 /* INTUMutableGroupedArrayInternal.h in Headers */,
+				4969BE68BDFE802BD17AD058 /* Pods-ProjectA-iOS-INTUGroupedArray-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD057C4EA5484BEFA87313B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364D4F3248B966E20E60B6D1 /* Pods-ProjectA-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DA8AD139BB54E33BE8F49F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FFA5627893AE4DD174F102 /* Pods-ProjectB-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71E3EF279205ABA85CF985F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF68EAE5B64682367454A025 /* INTUGroupedArray.h in Headers */,
+				7D674BA3BFC6CA74F9156E65 /* INTUGroupedArrayDefines.h in Headers */,
+				F1F06B54370856ACC5947604 /* INTUGroupedArrayImports.h in Headers */,
+				D4CD83AF379DD4F98B041D6D /* INTUGroupedArrayInternal.h in Headers */,
+				E9C66A0645933F157D69AC46 /* INTUGroupedArraySectionContainer.h in Headers */,
+				EDFAB4340D8DD8705019EEBE /* INTUIndexPair.h in Headers */,
+				E3C55AF7002EFF08E90503E6 /* INTUMutableGroupedArray.h in Headers */,
+				68ED5864C3F600DFB4895536 /* INTUMutableGroupedArrayInternal.h in Headers */,
+				FB2D3CEC72A681EF0F457C49 /* Pods-ProjectA-Mac-INTUGroupedArray-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19423DB04BD3BFBBE45BAC1F /* Pods-ProjectA-Mac-INTUGroupedArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA93A8C0ED237BAF2C5337D5 /* Build configuration list for PBXNativeTarget "Pods-ProjectA-Mac-INTUGroupedArray" */;
+			buildPhases = (
+				FF0D0708F61354A69769FC39 /* Sources */,
+				01A6688AB4F243F4142967D3 /* Frameworks */,
+				D71E3EF279205ABA85CF985F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ProjectA-Mac-INTUGroupedArray";
+			productName = "Pods-ProjectA-Mac-INTUGroupedArray";
+			productReference = D7028A870C9F7706BE164ECC /* INTUGroupedArray.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D42E0DB234B443D9115773E /* Pods-ProjectB-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4301DF77EABAD370FED29FAB /* Build configuration list for PBXNativeTarget "Pods-ProjectB-iOS" */;
+			buildPhases = (
+				16DA7368D5252A0462294DDE /* Sources */,
+				065A851AAC714CA35C48503A /* Frameworks */,
+				C8DA8AD139BB54E33BE8F49F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A77EBBBA3B213C159BC79CB /* PBXTargetDependency */,
+			);
+			name = "Pods-ProjectB-iOS";
+			productName = "Pods-ProjectB-iOS";
+			productReference = 562AA1A823556A30A607DF4C /* Pods_ProjectB_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6522147B43BA135595CEAE4B /* Pods-ProjectB-Mac-INTUGroupedArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99258C9E7A8A96E1079D0F09 /* Build configuration list for PBXNativeTarget "Pods-ProjectB-Mac-INTUGroupedArray" */;
+			buildPhases = (
+				638B7CD481EF509FECA05D37 /* Sources */,
+				05A93B11E117FF0856BA05FC /* Frameworks */,
+				03604DE48091181051AC30B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ProjectB-Mac-INTUGroupedArray";
+			productName = "Pods-ProjectB-Mac-INTUGroupedArray";
+			productReference = 9DD179BA942EBC438508BF09 /* INTUGroupedArray.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F4EB88FFA002039D858F823 /* Pods-ProjectA-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59995E21B81ACC504F3023FD /* Build configuration list for PBXNativeTarget "Pods-ProjectA-Mac" */;
+			buildPhases = (
+				8BFDA648DD6DADE68175B35C /* Sources */,
+				AD5C8C5883A23BC90180D1B2 /* Frameworks */,
+				89F9EA3C513D6F098FDC8314 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1162763ED9AF013F2AE74D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-ProjectA-Mac";
+			productName = "Pods-ProjectA-Mac";
+			productReference = 819B09332F81F78E9A2D0AE3 /* Pods_ProjectA_Mac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95C894503E8342E1EA0AF7F0 /* Pods-ProjectA-iOS-INTUGroupedArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED2EF34B68DB9DD38AF895C /* Build configuration list for PBXNativeTarget "Pods-ProjectA-iOS-INTUGroupedArray" */;
+			buildPhases = (
+				76FA4AE7DE2C929C1064B35E /* Sources */,
+				C654C10EE20E6192C8205A2E /* Frameworks */,
+				AA786E2DF40276DA8D8768A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ProjectA-iOS-INTUGroupedArray";
+			productName = "Pods-ProjectA-iOS-INTUGroupedArray";
+			productReference = 9617DE4BD49457348843874D /* INTUGroupedArray.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C44DF99374C9DA8239979E4 /* Pods-ProjectA-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D263DE302BC4329E161C0DF /* Build configuration list for PBXNativeTarget "Pods-ProjectA-iOS" */;
+			buildPhases = (
+				7EF27DD13CF07BC829571113 /* Sources */,
+				C3C2FDBF1CE72877936CC39B /* Frameworks */,
+				BD057C4EA5484BEFA87313B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8A4669B80C18001D8C352E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ProjectA-iOS";
+			productName = "Pods-ProjectA-iOS";
+			productReference = B4332906DC1FD30E23AC0F7B /* Pods_ProjectA_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFB311D1E56B46977A49F085 /* Pods-ProjectB-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9552FCC49EF0BFFC14F5B77 /* Build configuration list for PBXNativeTarget "Pods-ProjectB-Mac" */;
+			buildPhases = (
+				B76D340E81EB164CBAE728A9 /* Sources */,
+				8BD6E32E42558AE54ECA5063 /* Frameworks */,
+				318977E0183C7E4E460AB235 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ED74B4C3EBFAAF85437EF0E /* PBXTargetDependency */,
+			);
+			name = "Pods-ProjectB-Mac";
+			productName = "Pods-ProjectB-Mac";
+			productReference = 9C24A0A03DF3509B8836C0A6 /* Pods_ProjectB_Mac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E31722B1272198B56B44B30D /* Pods-ProjectB-iOS-INTUGroupedArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8E5E39DF52752B701C2047 /* Build configuration list for PBXNativeTarget "Pods-ProjectB-iOS-INTUGroupedArray" */;
+			buildPhases = (
+				94C237512884A7349962C3E4 /* Sources */,
+				0F479A395DDCDAB150ACA22B /* Frameworks */,
+				1A014ED7E7B8255D0756F178 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ProjectB-iOS-INTUGroupedArray";
+			productName = "Pods-ProjectB-iOS-INTUGroupedArray";
+			productReference = 1C580862459DE9DC3E06F4CC /* INTUGroupedArray.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		297EBBB3E41A2C38508617C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 61507F3AC9A6E67FA56467F0 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 945D6553D60DDC72B37F5722;
+			productRefGroup = D4CF620A9DCB8533B7A7B113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F4EB88FFA002039D858F823 /* Pods-ProjectA-Mac */,
+				19423DB04BD3BFBBE45BAC1F /* Pods-ProjectA-Mac-INTUGroupedArray */,
+				9C44DF99374C9DA8239979E4 /* Pods-ProjectA-iOS */,
+				95C894503E8342E1EA0AF7F0 /* Pods-ProjectA-iOS-INTUGroupedArray */,
+				BFB311D1E56B46977A49F085 /* Pods-ProjectB-Mac */,
+				6522147B43BA135595CEAE4B /* Pods-ProjectB-Mac-INTUGroupedArray */,
+				3D42E0DB234B443D9115773E /* Pods-ProjectB-iOS */,
+				E31722B1272198B56B44B30D /* Pods-ProjectB-iOS-INTUGroupedArray */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16DA7368D5252A0462294DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C333C0DCA2D6227CC2C6ED31 /* Pods-ProjectB-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638B7CD481EF509FECA05D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F0D1CD5D83FAC377300301 /* INTUGroupedArray.m in Sources */,
+				5F8C5D549EF4E828FC7B2DE6 /* INTUGroupedArraySectionContainer.m in Sources */,
+				7D40116CC348BAA4693F7F76 /* INTUMutableGroupedArray.m in Sources */,
+				F779758513767324476B5391 /* Pods-ProjectB-Mac-INTUGroupedArray-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FA4AE7DE2C929C1064B35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5795207B5E7C3534195D39 /* INTUGroupedArray.m in Sources */,
+				783BAF7527F6007C845B0BAF /* INTUGroupedArraySectionContainer.m in Sources */,
+				7C9D31465D1B348E7B6E793A /* INTUMutableGroupedArray.m in Sources */,
+				A8BA2A396E797F5614832292 /* Pods-ProjectA-iOS-INTUGroupedArray-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF27DD13CF07BC829571113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEF825E98EFAC36204A09AE /* Pods-ProjectA-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFDA648DD6DADE68175B35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D43532D29B3F40F82EEBD93 /* Pods-ProjectA-Mac-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C237512884A7349962C3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD8870703E02605D6D1D35C /* INTUGroupedArray.m in Sources */,
+				509DF8CD402A774C4CF11B98 /* INTUGroupedArraySectionContainer.m in Sources */,
+				DA0A43238A74E710ED26B0EF /* INTUMutableGroupedArray.m in Sources */,
+				E7EB77DAA1D4EAA7B512DAAF /* Pods-ProjectB-iOS-INTUGroupedArray-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76D340E81EB164CBAE728A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D99493FB3C88DC65A33A160 /* Pods-ProjectB-Mac-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0D0708F61354A69769FC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DB5FA134EE7F36F7E08683 /* INTUGroupedArray.m in Sources */,
+				11A70776B937ABE74B04D6D7 /* INTUGroupedArraySectionContainer.m in Sources */,
+				67B05B6CC95D39CDBC7A192A /* INTUMutableGroupedArray.m in Sources */,
+				44181E959D376064EC297B64 /* Pods-ProjectA-Mac-INTUGroupedArray-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A77EBBBA3B213C159BC79CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ProjectB-iOS-INTUGroupedArray";
+			target = E31722B1272198B56B44B30D /* Pods-ProjectB-iOS-INTUGroupedArray */;
+			targetProxy = C892F121FAFF3C66C7D6CBBF /* PBXContainerItemProxy */;
+		};
+		1ED74B4C3EBFAAF85437EF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ProjectB-Mac-INTUGroupedArray";
+			target = 6522147B43BA135595CEAE4B /* Pods-ProjectB-Mac-INTUGroupedArray */;
+			targetProxy = D8B0C6B0E96817BB9A6FB7D1 /* PBXContainerItemProxy */;
+		};
+		B1162763ED9AF013F2AE74D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ProjectA-Mac-INTUGroupedArray";
+			target = 19423DB04BD3BFBBE45BAC1F /* Pods-ProjectA-Mac-INTUGroupedArray */;
+			targetProxy = 90968E1EAB69337CF33FD370 /* PBXContainerItemProxy */;
+		};
+		C8A4669B80C18001D8C352E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ProjectA-iOS-INTUGroupedArray";
+			target = 95C894503E8342E1EA0AF7F0 /* Pods-ProjectA-iOS-INTUGroupedArray */;
+			targetProxy = C2C02F2EC5B5A7DB2BE4CB37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		209D2EC26C7A8657A3080151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5B7028F6DB96F5561E085D /* Pods-ProjectA-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectA-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectA-iOS/Pods-ProjectA-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ProjectA_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		260CEE4991F752044F5C112B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C397BC27C9498BAB7721E11 /* Pods-ProjectA-iOS-INTUGroupedArray-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ProjectA-iOS-INTUGroupedArray/Pods-ProjectA-iOS-INTUGroupedArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectA-iOS-INTUGroupedArray/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectA-iOS-INTUGroupedArray/Pods-ProjectA-iOS-INTUGroupedArray.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = INTUGroupedArray;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3360808C5CEDB7DC6B666299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0924D65B1DAF7ECDD546CFD9 /* Pods-ProjectB-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectB-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectB-iOS/Pods-ProjectB-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ProjectB_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34A42C704E9EF13373CD9B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5CAF6A0211DD9ACFBFD3F8 /* Pods-ProjectA-Mac-INTUGroupedArray-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ProjectA-Mac-INTUGroupedArray/Pods-ProjectA-Mac-INTUGroupedArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectA-Mac-INTUGroupedArray/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectA-Mac-INTUGroupedArray/Pods-ProjectA-Mac-INTUGroupedArray.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = INTUGroupedArray;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D335E914470C9F8E7003EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5CAF6A0211DD9ACFBFD3F8 /* Pods-ProjectA-Mac-INTUGroupedArray-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ProjectA-Mac-INTUGroupedArray/Pods-ProjectA-Mac-INTUGroupedArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectA-Mac-INTUGroupedArray/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectA-Mac-INTUGroupedArray/Pods-ProjectA-Mac-INTUGroupedArray.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = INTUGroupedArray;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50E2BBBDD63874E4F0E47895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4061915CB2542CC22DD22FC1 /* Pods-ProjectB-iOS-INTUGroupedArray-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ProjectB-iOS-INTUGroupedArray/Pods-ProjectB-iOS-INTUGroupedArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectB-iOS-INTUGroupedArray/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectB-iOS-INTUGroupedArray/Pods-ProjectB-iOS-INTUGroupedArray.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = INTUGroupedArray;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82EB7A3EE3DB32D9C099A2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1619B3AD38D602494E60BD0 /* Pods-ProjectB-Mac-INTUGroupedArray-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ProjectB-Mac-INTUGroupedArray/Pods-ProjectB-Mac-INTUGroupedArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectB-Mac-INTUGroupedArray/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectB-Mac-INTUGroupedArray/Pods-ProjectB-Mac-INTUGroupedArray.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = INTUGroupedArray;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		868C645C1D0760043A462C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEE7F16319742658E566C3D /* Pods-ProjectA-Mac.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectA-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectA-Mac/Pods-ProjectA-Mac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ProjectA_Mac;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BE96432A61CB464BA591EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAAAA0DD0759663005085EB /* Pods-ProjectB-Mac.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectB-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectB-Mac/Pods-ProjectB-Mac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ProjectB_Mac;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A23828A80D6A7D187E742481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4061915CB2542CC22DD22FC1 /* Pods-ProjectB-iOS-INTUGroupedArray-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ProjectB-iOS-INTUGroupedArray/Pods-ProjectB-iOS-INTUGroupedArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectB-iOS-INTUGroupedArray/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectB-iOS-INTUGroupedArray/Pods-ProjectB-iOS-INTUGroupedArray.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = INTUGroupedArray;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70309F0CDBEFD0B612A97E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C397BC27C9498BAB7721E11 /* Pods-ProjectA-iOS-INTUGroupedArray-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ProjectA-iOS-INTUGroupedArray/Pods-ProjectA-iOS-INTUGroupedArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectA-iOS-INTUGroupedArray/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectA-iOS-INTUGroupedArray/Pods-ProjectA-iOS-INTUGroupedArray.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = INTUGroupedArray;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFE6F8009EC5CB939C995CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7535F593CE1247F4C02A5C /* Pods-ProjectA-Mac.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectA-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectA-Mac/Pods-ProjectA-Mac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ProjectA_Mac;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5B31225E72CFA00B015E6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BBC3E97108882A83B6898D /* Pods-ProjectB-Mac.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectB-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectB-Mac/Pods-ProjectB-Mac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ProjectB_Mac;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5FC23BFA0D781D4168D1065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D435688592F2C373DC435FA /* Pods-ProjectB-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectB-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectB-iOS/Pods-ProjectB-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ProjectB_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0870C38339623E9A918B7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D38FCEFE4560A2B6DF8355FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FE93050E0F2EE0982388E8 /* Pods-ProjectA-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectA-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectA-iOS/Pods-ProjectA-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ProjectA_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D81AA2F7C24B7D9EA3DF4D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1619B3AD38D602494E60BD0 /* Pods-ProjectB-Mac-INTUGroupedArray-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ProjectB-Mac-INTUGroupedArray/Pods-ProjectB-Mac-INTUGroupedArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectB-Mac-INTUGroupedArray/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectB-Mac-INTUGroupedArray/Pods-ProjectB-Mac-INTUGroupedArray.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = INTUGroupedArray;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC823B446160F30454E9C989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8E5E39DF52752B701C2047 /* Build configuration list for PBXNativeTarget "Pods-ProjectB-iOS-INTUGroupedArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23828A80D6A7D187E742481 /* Debug */,
+				50E2BBBDD63874E4F0E47895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4301DF77EABAD370FED29FAB /* Build configuration list for PBXNativeTarget "Pods-ProjectB-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FC23BFA0D781D4168D1065 /* Debug */,
+				3360808C5CEDB7DC6B666299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59995E21B81ACC504F3023FD /* Build configuration list for PBXNativeTarget "Pods-ProjectA-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868C645C1D0760043A462C60 /* Debug */,
+				AFE6F8009EC5CB939C995CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61507F3AC9A6E67FA56467F0 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0870C38339623E9A918B7B5 /* Debug */,
+				FC823B446160F30454E9C989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D263DE302BC4329E161C0DF /* Build configuration list for PBXNativeTarget "Pods-ProjectA-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38FCEFE4560A2B6DF8355FE /* Debug */,
+				209D2EC26C7A8657A3080151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED2EF34B68DB9DD38AF895C /* Build configuration list for PBXNativeTarget "Pods-ProjectA-iOS-INTUGroupedArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260CEE4991F752044F5C112B /* Debug */,
+				A70309F0CDBEFD0B612A97E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99258C9E7A8A96E1079D0F09 /* Build configuration list for PBXNativeTarget "Pods-ProjectB-Mac-INTUGroupedArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81AA2F7C24B7D9EA3DF4D7C /* Debug */,
+				82EB7A3EE3DB32D9C099A2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA93A8C0ED237BAF2C5337D5 /* Build configuration list for PBXNativeTarget "Pods-ProjectA-Mac-INTUGroupedArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D335E914470C9F8E7003EC2 /* Debug */,
+				34A42C704E9EF13373CD9B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9552FCC49EF0BFFC14F5B77 /* Build configuration list for PBXNativeTarget "Pods-ProjectB-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B31225E72CFA00B015E6C5 /* Debug */,
+				8BE96432A61CB464BA591EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 297EBBB3E41A2C38508617C1 /* Project object */;
+}

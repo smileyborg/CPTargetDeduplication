@@ -1,0 +1,6 @@
+framework module INTUGroupedArray {
+  umbrella header "Pods-ProjectA-Mac-INTUGroupedArray-umbrella.h"
+
+  export *
+  module * { export * }
+}
